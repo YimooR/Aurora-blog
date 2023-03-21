@@ -1,0 +1,82 @@
+---
+title: IDEA安装和使用教程
+description: 个人学习使用
+date: 2023-2-18 22:33:12
+updated: 
+tags:
+  - Java
+categories:
+  - Java
+cover: https://yimoorua-img.oss-cn-chengdu.aliyuncs.com/images/AgAAC6u-TVO-6GCp-41Pb5VAdprXFwlM.png
+abbrlink: 
+feature: true
+---
+# 个人学习版IDEA安装使用教程
+
+1、在 IDEA 官网下载安装包并且安装在自己电脑上。
+
+2、如果你电脑上的IDEA之前就使用过其他激活教程，那么我建议你先重置你的IDEA。这样能避免因为以前的激活补丁而导致永久激活失败，后期失效了又得折腾是很麻烦的。<b style="color:red">（**Ps：新电脑新安装的IDEA无需重置，可以直接跳过这一步直接开始激活。**）</b>
+
+<b style="color:blue">重置IDEA也很方便了，这里准备了<a href="">脚本</a>给大家，双击运行脚本就重置好了。</b>
+
+3、重置电脑，找到【重置脚本】文件夹，右键该文件夹新建终端
+
+![image-20230218225532116](https://yimoorua-img.oss-cn-chengdu.aliyuncs.com/md-imgs/image-20230218225532116.png)    
+
+mac版：
+
+1. 输入`chmod u+x reset_jetbrains_eval_mac_linux.sh`命令，回车
+2. 输入`./reset_jetbrains_eval_mac_linux.sh`命令，回车
+2. 显示`done`提示，则完成重置。
+
+windows版：
+
+1. 直接双击**reset_jetbrains_eval_windows.vbs**文件
+
+2. 弹出done对话框则完成。
+
+4、打开补丁文件夹，右键该文件夹新建终端
+
+![image-20230218230355423](https://yimoorua-img.oss-cn-chengdu.aliyuncs.com/md-imgs/image-20230218230355423.png)  
+
+mac版：
+
+1. 输入`chmod u+x install.sh`命令，回车
+2. 输入`./install.sh`命令，回车
+3. 提示done，完成
+
+windows版：
+
+1. 双击`install-all-users.vbs`文件
+2. ![image-20230218232538840](https://yimoorua-img.oss-cn-chengdu.aliyuncs.com/md-imgs/image-20230218232538840.png) 
+3. ![image-20230218232550212](https://yimoorua-img.oss-cn-chengdu.aliyuncs.com/md-imgs/image-20230218232550212.png) 
+
+:::warning
+注意：这个激活脚本是支持 JetBrains 所有产品的！也就是说脚本运行一次之后，你电脑上安装的所有 JetBrains 软件就都可以永久了，直接按照后面的步骤输入激活码就行！
+
+比如你电脑上现在安装了IDEA 和PyCharm这两款软件，上面的激活脚本你只需要运行一次就可以了！而且后续如果你再安装其他 JetBrains 的软件也不需要再运行激活脚本，直接按照后面的步骤输入激活码就可以了！
+:::
+
+5、然后我们打开 IDEA，如下图所示点击 **Activation code** 。
+
+![image-20230218232838372](https://yimoorua-img.oss-cn-chengdu.aliyuncs.com/md-imgs/image-20230218232838372.png) 
+
+6、然后复制下面的激活码粘贴进去。
+
+```txt
+6G5NXCPJZB-eyJsaWNlbnNlSWQiOiI2RzVOWENQSlpCIiwibGljZW5zZWVOYW1lIjoic2lnbnVwIHNjb290ZXIiLCJhc3NpZ25lZU5hbWUiOiIiLCJhc3NpZ25lZUVtYWlsIjoiIiwibGljZW5zZVJlc3RyaWN0aW9uIjoiIiwiY2hlY2tDb25jdXJyZW50VXNlIjpmYWxzZSwicHJvZHVjdHMiOlt7ImNvZGUiOiJQU0kiLCJmYWxsYmFja0RhdGUiOiIyMDI1LTA4LTAxIiwicGFpZFVwVG8iOiIyMDI1LTA4LTAxIiwiZXh0ZW5kZWQiOnRydWV9LHsiY29kZSI6IlBEQiIsImZhbGxiYWNrRGF0ZSI6IjIwMjUtMDgtMDEiLCJwYWlkVXBUbyI6IjIwMjUtMDgtMDEiLCJleHRlbmRlZCI6dHJ1ZX0seyJjb2RlIjoiSUkiLCJmYWxsYmFja0RhdGUiOiIyMDI1LTA4LTAxIiwicGFpZFVwVG8iOiIyMDI1LTA4LTAxIiwiZXh0ZW5kZWQiOmZhbHNlfSx7ImNvZGUiOiJQUEMiLCJmYWxsYmFja0RhdGUiOiIyMDI1LTA4LTAxIiwicGFpZFVwVG8iOiIyMDI1LTA4LTAxIiwiZXh0ZW5kZWQiOnRydWV9LHsiY29kZSI6IlBHTyIsImZhbGxiYWNrRGF0ZSI6IjIwMjUtMDgtMDEiLCJwYWlkVXBUbyI6IjIwMjUtMDgtMDEiLCJleHRlbmRlZCI6dHJ1ZX0seyJjb2RlIjoiUFNXIiwiZmFsbGJhY2tEYXRlIjoiMjAyNS0wOC0wMSIsInBhaWRVcFRvIjoiMjAyNS0wOC0wMSIsImV4dGVuZGVkIjp0cnVlfSx7ImNvZGUiOiJQV1MiLCJmYWxsYmFja0RhdGUiOiIyMDI1LTA4LTAxIiwicGFpZFVwVG8iOiIyMDI1LTA4LTAxIiwiZXh0ZW5kZWQiOnRydWV9LHsiY29kZSI6IlBQUyIsImZhbGxiYWNrRGF0ZSI6IjIwMjUtMDgtMDEiLCJwYWlkVXBUbyI6IjIwMjUtMDgtMDEiLCJleHRlbmRlZCI6dHJ1ZX0seyJjb2RlIjoiUFJCIiwiZmFsbGJhY2tEYXRlIjoiMjAyNS0wOC0wMSIsInBhaWRVcFRvIjoiMjAyNS0wOC0wMSIsImV4dGVuZGVkIjp0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
+```
+
+7、如果粘贴激活码之后是下图这个样子，说明激活码失效了！大家可以在这个网址获取新的激活码：http://idea.javatiku.cn/
+
+![idea激活码失效图](https://yimoorua-img.oss-cn-chengdu.aliyuncs.com/md-imgs/idea%E6%BF%80%E6%B4%BB%E7%A0%81%E5%A4%B1%E6%95%88%E5%9B%BE.png) 
+
+8、激活码粘贴之后如下图所示，就说明有效，然后我们点击 **Activate** 激活。
+
+![img](https://yimoorua-img.oss-cn-chengdu.aliyuncs.com/md-imgs/3IDEA2022.3.png)
+
+9、最后就激活成功了，点击 **Continue** 关闭窗口就好了。
+
+
+
+*（不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。本站信息来自网络，版权争议与本站无关，您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。访问和下载本站内容，说明您已同意上述条款。）*
